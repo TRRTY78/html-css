@@ -1,0 +1,261 @@
+:root {
+  --primarycolor: #ff274b;
+  --secondarycolor: #f7bcf7;
+  --lightColor: #ffffff;
+  --bgColor-1: #171a1c;
+  --bgColor-2: #22282a;
+  --padding:8%
+}
+html{
+  font-family:  "josefin sans",sans-serif;;
+}
+* {
+  background-color: #171a1c;
+  font-family: Josefin Sans;
+}
+.Homee{
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-color: var(--bgColor-1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    font-size: 1.8rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    font-family: 'Josefin Sans',
+    sans-serif;
+    color: white;
+}
+span {
+  color: #ff274b;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home,
+.services,
+.contact {
+  font-size: 20px;
+  font-family: Cairo;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.href {
+  background-color: #ff274b;
+  color: #22282a;
+  border: 0px solid white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.href:hover {
+  background-color: white;
+}
+
+.img {
+  margin-left: -100px;
+  margin-top: 250px;
+  height: 530px;
+  width: 500px;
+}
+
+.text {
+  width: 590px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #eee;
+  margin-left: -60px;
+}
+
+h5 {
+  font-size: 28px;
+  color: #eee;
+  margin-left: -150px;
+}
+
+.content {
+  display: flex;
+  width: 1130px;
+  max-width: 95%;
+  font-size: 25px;
+  margin: 50px auto;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  justify-items: center;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.para1 {
+  color: #eeeeee;
+  padding: 10px;
+  border: 0.5px solid #ff274b;
+  border-radius: 10px 0px;
+  width: 640px;
+}
+
+.para2 {
+  color: #ff274b;
+  font-size: 20px;
+  font-family: Josefin Sans;
+  margin: 50px 80px;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #eee;
+  font-size: 20px;
+  margin: 50px auto;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+}
+
+.lastdiv {
+  color: #eee;
+  font-size: 25px;
+  margin: 50px auto;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  margin-left: 100px;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.image4 {
+  height: 400px;
+  width: calc(100% / 2);
+}
+.offre {
+  color: #ff274b;
+}
+footer{
+    text-align: center;
+}
+footer.content-footer{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+footer.content-footer p{
+    color: var(--primarycolor);
+    text-align: center;
+    width: 500px;
+    margin-top: 1rem;
+}
+footer.content-footer .end{
+    color: var(--secondarycolor);
+    margin-top: 1rem;
+    text-align: center;
+}
+.end{
+  color: white;
+}
+span{
+    color:var(--primarycolor);
+}
+h2{
+    font-size: 1.8rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    font-family: 'Josefin Sans',
+    sans-serif;
+}
+.wi{
+  color: white;
+  font-size: 25px;
+  font-family:  "josefin sans",sans-serif;;
+}
+.footer-col{
+    background-color: var(--bgColor-1);
+    text-align: center;
+    margin-top: 10px;
+    /* margin:0px 0px 10px; */
+    height: 10vh;
+}
+
+@media (max-width: 700px) {
+  .header {
+    justify-content: start;
+  }
+  body{
+    display: column;
+  }
+  .para2 {
+    font-size: 25px;
+  }
+  .para1{
+    padding: 20px;
+    /* margin-left: 30; */
+    text-align: center;
+    /* width: 400px; */
+    /* display: block; */
+    max-width: 400px;
+    font-size: 20px;
+  }
+  h5 {
+    color: #ff274b;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .text {
+    width: 770px;
+    /* margin-left: -100px; */
+    font-size: 30px;
+  }
+  .img {
+    display:none;
+  }
+  .href {
+    font-size: 30px;
+  }
+  .image4 {
+    display: none;
+  }
+  /* .flex {
+    display: block;
+  } */
+  .lastdiv {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .last {
+    margin-left: 10px;
+  }
+  h1{
+    text-align: center;
+    margin-left: 10px;
+  }
+  h4{
+    margin-left: 10px;
+  }
+  body{
+    padding: var(--padding);
+  }
+}
+
+
+  
+
+
